@@ -1,7 +1,6 @@
 import { FiTwitter, FiInstagram, FiLinkedin, FiGithub } from "react-icons/fi";
-
 import { BsBehance } from "react-icons/bs";
-
+import { SiMinutemailer } from "react-icons/si";
 export const About = () => {
   return (
     <div>
@@ -50,6 +49,10 @@ export const About = () => {
               <FiGithub />
             </a>
           </button>
+        </div>
+        <div className="flex items-center font-medium space-x-2 text-xl mt-2">
+          <SiMinutemailer />
+          <p>contato@adrianolucas.com</p>
         </div>
       </div>
     </div>

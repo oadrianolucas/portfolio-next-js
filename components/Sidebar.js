@@ -10,7 +10,7 @@ import {
   FaPenFancy,
 } from "react-icons/fa";
 import { IoCloseSharp } from "react-icons/io5";
-
+import { SiMinutemailer } from "react-icons/si";
 function Sidebar() {
   return (
     <div
@@ -31,7 +31,7 @@ function Sidebar() {
           <p className="font-thin	text-lg">Full Stack Developer</p>
         </div>
         <hr className="border-t dark:border-gray-700" />
-        <div className="pl-2 text-lg">
+        <div className="pl-3 text-lg">
           <button className="flex items-center space-x-2 hover:text-gray-500">
             <FaHome />
             <a href="/">Home</a>
@@ -50,7 +50,7 @@ function Sidebar() {
           </button>
         </div>
         <hr className="border-t dark:border-gray-700" />
-        <div className="items-center space-x-1 text-4xl pl-2 pt-1">
+        <div className="items-center space-x-1 text-4xl pl-3 pt-1">
           <button className="hover:text-gray-500">
             <a href="https://twitter.com/oadrianolucas" target="_blank">
               <FaTwitterSquare />
@@ -77,8 +77,12 @@ function Sidebar() {
             </a>
           </button>
         </div>
+        <div className="flex items-center space-x-2 text-md pl-3">
+          <SiMinutemailer />
+          <p>contato@adrianolucas.com</p>
+        </div>
         <hr className="border-t dark:border-gray-700" />
-        <h4 className="text-sm pl-2">Feito com ❤️ por Adriano</h4>
+        <h4 className="text-sm pl-3">Feito com ❤️ por Adriano</h4>
       </div>
     </div>
   );

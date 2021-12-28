@@ -5,7 +5,7 @@ const Blog = (props) => {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/medium")
+      .get("https://www.adrianolucas.com/api/medium")
       .then((res) => res.data)
       .then((res) => {
         setPosts(res);

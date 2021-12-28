@@ -28,7 +28,7 @@ function Sidebar() {
             alt="Me"
           ></img>
           <h2 className="font-bold text-xl pt-2">Adriano Lucas</h2>
-          <p className="font-thin	text-lg">Full Stack</p>
+          <p className="font-thin	text-lg">Full Stack Developer</p>
         </div>
         <hr className="border-t dark:border-gray-700" />
         <div className="pl-2 text-lg">

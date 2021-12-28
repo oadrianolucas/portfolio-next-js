@@ -1,14 +1,12 @@
-import Head from "next/head";
 import Sidebar from "../components/Sidebar";
 import { Header } from "../components/Header";
 import { Curiosity } from "../components/Curiosity";
+import { HeadTemplate } from "../components/HeadTemplate";
 
 export default function Home() {
   return (
     <div className="">
-      <Head>
-        <title>Adriano Lucas</title>
-      </Head>
+      <HeadTemplate />
       <main className="flex min-h-screen text-gray-700 dark:text-gray-100  dark:bg-slate-900 ">
         <Sidebar />
         <div className="flex-1">

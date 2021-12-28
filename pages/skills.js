@@ -11,8 +11,8 @@ export default function Home() {
         <Sidebar />
         <div className="flex-1">
           <Header />
-          <div className="container mx-auto px-8 pt-6 overflow-y-scroll scrollbar-hide h-screen">
-            <Skills />
+          <div className="container mx-auto px-8 pt-6 pb-16 overflow-y-scroll scrollbar-hide h-screen">
+            <Skills className="" />
           </div>
         </div>
       </main>

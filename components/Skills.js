@@ -1,3 +1,5 @@
+import { BsArrowDownCircleFill } from "react-icons/bs";
+
 export const Skills = () => {
   return (
     <div>
@@ -37,6 +39,13 @@ export const Skills = () => {
           </li>
           <li>FIAP - Blockchain Fundamentos</li>
         </ul>
+        <h3 className="font-medium text-2xl">Curriculum: </h3>
+        <button className="flex items-center space-x-1 bg-white p-4 py-2 font-bold rounded text-gray-900 hover:text-gray-500">
+          <BsArrowDownCircleFill />
+          <a href="./Curriculum-Adriano-Lucas.pdf" target="_blank" download>
+            Download
+          </a>
+        </button>
       </div>
     </div>
   );

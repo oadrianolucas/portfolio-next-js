@@ -11,7 +11,7 @@ export default function Home() {
         <Sidebar />
         <div className="flex-1">
           <Header />
-          <div className="container mx-auto px-8 pt-6 overflow-y-scroll scrollbar-hide h-screen">
+          <div className="container mx-auto px-8 pt-6 overflow-y-scroll scrollbar-hide h-screen md:mb-4">
             <Blog />
           </div>
         </div>

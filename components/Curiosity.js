@@ -2,7 +2,7 @@ export const Curiosity = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold pb-3">Curiosidades</h1>
-      <ul className="font-thin text-xl space-y-4">
+      <ul className="font-light text-2xl space-y-4">
         <li>Moro em Diadema - SP</li>
         <li>
           Tenho um Podcast sobre educação financeira o Futuro Investidor da um
@@ -22,8 +22,8 @@ export const Curiosity = () => {
           futebol pego no gol.
         </li>
         <li className="font-medium">
-          Escuto qualquer tipo de musíca, mas minha playlist diária são essas
-          criadas por mim:
+          Sou eclético, mas escuto todos os dias essas playlists criadas por
+          mim:
           <ul className="pl-4 font-thin mt-3">
             <li>
               <a

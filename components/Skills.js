@@ -15,8 +15,8 @@ export const Skills = () => {
         </ul>
         <h3 className="font-medium text-2xl">Programação: </h3>
         <p className="font-thin	text-xl">
-          Tenho como foco JavaScript e ReactJS, mas tenho conhecimento em outras
-          linguagens como Python e Java.
+          Tenho como foco JavaScript e ReactJS, mas adquiri o conhecimento em
+          outras linguagens como Python e Java.
         </p>
         <h3 className="font-medium text-2xl">Banco de dados: </h3>
         <p className="font-thin	text-xl">MySQL, PlSQL e MongoDB.</p>
@@ -40,7 +40,7 @@ export const Skills = () => {
           <li>FIAP - Blockchain Fundamentos</li>
         </ul>
         <h3 className="font-medium text-2xl">Curriculum: </h3>
-        <button className="flex items-center space-x-1 bg-white p-4 py-2 font-bold rounded text-gray-900 hover:text-gray-500">
+        <button className="flex items-center space-x-1 bg-gray-200 p-4 py-2 font-bold rounded text-gray-900 dark:bg-white hover:text-gray-500">
           <BsArrowDownCircleFill />
           <a href="./Curriculum-Adriano-Lucas.pdf" target="_blank" download>
             Download

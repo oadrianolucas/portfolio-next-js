@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex-1">
           <Header />
           <div className="container mx-auto px-8 pt-6 pb-16 overflow-y-scroll scrollbar-hide h-screen">
-            <Skills className="" />
+            <Skills />
           </div>
         </div>
       </main>

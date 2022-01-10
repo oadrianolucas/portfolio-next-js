@@ -5,7 +5,7 @@ import { HeadTemplate } from "../components/HeadTemplate";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <HeadTemplate />
       <main className="relative min-h-screen md:flex text-gray-700 dark:text-gray-100 dark:bg-slate-900 ">
         <Sidebar />

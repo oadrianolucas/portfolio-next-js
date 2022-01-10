@@ -5,7 +5,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ThemeProvider enableSystem={true} attribute="class">
       <Component {...pageProps} />
-      <script src="script.js"></script>
+      <script src="js/script.js"></script>
     </ThemeProvider>
   );
 }

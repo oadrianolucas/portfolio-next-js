@@ -19,7 +19,7 @@ export const Skills = () => {
           outras linguagens como Python e Java.
         </p>
         <h3 className="font-medium text-2xl">Banco de dados: </h3>
-        <p className="font-thin	text-xl">MySQL, PlSQL e MongoDB.</p>
+        <p className="font-thin	text-xl">MySQL, Oracle e MongoDB.</p>
         <h3 className="font-medium text-2xl">Outros conhecimentos: </h3>
         <p className="font-thin	text-xl">
           Estou focado em trabalhar com ReactJS, Node.js, Firebase, React

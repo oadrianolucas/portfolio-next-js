@@ -12,8 +12,6 @@ export const Skills = () => {
             FIAP - Curso Superior de Tecnologia (CST) / Análise de Sistemas de
             Computação
           </li>
-          <li>ALL NET - Game Designer</li>
-          <li>ALL NET - English Teens</li>
         </ul>
         <h3 className="font-medium text-2xl">Programação: </h3>
         <p className="font-thin	text-xl">
@@ -40,6 +38,8 @@ export const Skills = () => {
             Digital e Gestão de Tecnologia da Informação
           </li>
           <li>FIAP - Blockchain Fundamentos</li>
+          <li>ALL NET - Game Designer</li>
+          <li>ALL NET - English Teens</li>
         </ul>
       </div>
     </div>

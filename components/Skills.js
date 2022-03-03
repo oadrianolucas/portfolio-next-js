@@ -7,11 +7,13 @@ export const Skills = () => {
         <h1 className="text-4xl font-bold pb-2">Conhecimentos</h1>
         <h3 className="font-medium text-2xl">Formação: </h3>
         <ul className="font-thin text-xl">
+          <li>UNIBTA - Pós-graduação / Investimentos e Blockchain</li>
           <li>
             FIAP - Curso Superior de Tecnologia (CST) / Análise de Sistemas de
             Computação
           </li>
-          <li>UNIBTA - Pós-graduação / Investimentos e Blockchain</li>
+          <li>ALL NET - Game Designer</li>
+          <li>ALL NET - English Teens</li>
         </ul>
         <h3 className="font-medium text-2xl">Programação: </h3>
         <p className="font-thin	text-xl">
@@ -39,13 +41,6 @@ export const Skills = () => {
           </li>
           <li>FIAP - Blockchain Fundamentos</li>
         </ul>
-        <h3 className="font-medium text-2xl">Curriculum: </h3>
-        <button className="flex items-center space-x-1 bg-gray-200 p-4 py-2 font-bold rounded text-gray-900 dark:bg-white hover:text-gray-500">
-          <BsArrowDownCircleFill />
-          <a href="./Curriculum-Adriano-Lucas.pdf" target="_blank" download>
-            Download
-          </a>
-        </button>
       </div>
     </div>
   );

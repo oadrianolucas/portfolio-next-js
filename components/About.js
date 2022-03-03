@@ -35,17 +35,17 @@ export const About = () => {
             </a>
           </button>
           <button className="hover:text-gray-500">
-            <a href="https://twitter.com/oadrianolucas" target="_blank">
+            <a href="https://www.behance.net/oadrianolucas" target="_blank">
               <BsBehance />
             </a>
           </button>
           <button className="hover:text-gray-500">
-            <a href="https://twitter.com/oadrianolucas" target="_blank">
+            <a href="https://www.linkedin.com/in/adrianolucas/" target="_blank">
               <FiLinkedin />
             </a>
           </button>
           <button className="hover:text-gray-500">
-            <a href="https://twitter.com/oadrianolucas" target="_blank">
+            <a href="https://github.com/oadrianolucas" target="_blank">
               <FiGithub />
             </a>
           </button>
